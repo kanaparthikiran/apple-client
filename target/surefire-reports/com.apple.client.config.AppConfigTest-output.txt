@@ -1,6 +1,0 @@
-20:13:52.007 [Finalizer] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
-20:13:52.008 [Finalizer] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
-20:13:52.009 [Finalizer] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
-20:13:52.010 [Finalizer] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
-20:13:52.143 [main] INFO com.apple.client.config.AppConfigTest - Initialized all Mocks and Injected in to the instance
-20:13:53.279 [main] INFO com.apple.client.config.AppConfigTest - Closed all mocks and objects 

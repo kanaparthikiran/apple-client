@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"com.apple.client"},{"l":"com.apple.client.bean"},{"l":"com.apple.client.config"},{"l":"com.apple.client.exception"},{"l":"com.apple.client.service"},{"l":"com.apple.client.util"}]
