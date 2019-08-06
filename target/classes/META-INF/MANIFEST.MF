@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Built-By: kkanaparthi
 Build-Jdk: 10.0.2
-Implementation-Title: apple-client
+Implementation-Title: http-client-library
 Implementation-Version: 1.0
 Implementation-Vendor-Id: com.apple.client
 Implementation-URL: http://maven.apache.org
