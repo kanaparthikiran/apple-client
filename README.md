@@ -1,6 +1,6 @@
-# Apple HTTP client
+# HTTP client Library
 
-Apple HTTP client is developed for making Http/Https client calls to Wikipedia and gather statistics for the data set.
+HTTP client Library is developed for making Http/Https client calls to a backend service/Wikipedia and gather statistics for the data set.
 
 ## Getting Started
 
@@ -37,5 +37,5 @@ mvn clean install
 Execute the Jar file for executing the application
 
 ```
-java -jar target/expclient-1.0.jar
+java -jar target/http-client-library-1.0.jar
 ```
