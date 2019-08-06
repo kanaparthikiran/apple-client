@@ -1,0 +1,14 @@
+20:13:53.539 [main] INFO com.apple.client.service.ServiceClientTest - Initialized all Mocks and Injected in to the instance
+20:13:53.541 [main] INFO com.apple.client.service.ServiceClient - Inside Method Status Code is 200 OK Response Time 0 
+20:13:53.544 [main] INFO com.apple.client.service.ServiceClientTest - Initialized all Mocks and Injected in to the instance
+20:13:53.545 [main] DEBUG com.apple.client.service.ServiceClient - elements sorted elapsedTime=100, responseCode=200 
+20:13:53.545 [main] DEBUG com.apple.client.service.ServiceClient - elements sorted elapsedTime=200, responseCode=200 
+20:13:53.545 [main] DEBUG com.apple.client.service.ServiceClient - elements sorted elapsedTime=300, responseCode=200 
+20:13:53.545 [main] INFO com.apple.client.service.ServiceClient - percentile 10 = 100 
+20:13:53.545 [main] INFO com.apple.client.service.ServiceClient - percentile 50 = 200 
+20:13:53.545 [main] INFO com.apple.client.service.ServiceClient - percentile 90 = 300 
+20:13:53.545 [main] INFO com.apple.client.service.ServiceClient - percentile 95 = 300 
+20:13:53.545 [main] INFO com.apple.client.service.ServiceClient - percentile 99 = 300 
+20:13:53.546 [main] INFO com.apple.client.service.ServiceClient - The mean of all values = 200.0  
+20:13:53.546 [main] INFO com.apple.client.service.ServiceClient - The standardDeviation of all values = 100.000 
+20:13:53.547 [main] INFO com.apple.client.service.ServiceClient - The Sum of time taken to execute all tasks(if executed serially) is 600.0 milli seconds 

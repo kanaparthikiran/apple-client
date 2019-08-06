@@ -1,0 +1,14 @@
+com/apple/client/service/IServiceClient.class
+META-INF/spring-configuration-metadata.json
+com/apple/client/bean/ServiceResponse.class
+com/apple/client/exception/AppleClientException.class
+com/apple/client/AppRunner.class
+com/apple/client/config/ServiceConfiguration.class
+com/apple/client/service/ServiceClient.class
+com/apple/client/util/AppleStatsUtil.class
+com/apple/client/config/AppConfig.class
+com/apple/client/util/ServiceResponseComparator.class
+com/apple/client/config/ClientConfiguration.class
+com/apple/client/exception/AppleAsyncUncaughtExceptionHandler.class
+com/apple/client/config/HttpConnectionConfiguration.class
+com/apple/client/Application.class

@@ -1,0 +1,7 @@
+20:13:53.304 [main] INFO com.apple.client.bean.ServiceResponseTest - Initialized all Mocks and Injected in to the instance
+20:13:53.305 [main] INFO com.apple.client.bean.ServiceResponseTest - Initialized all Mocks and Injected in to the instance
+20:13:53.306 [main] INFO com.apple.client.bean.ServiceResponseTest - Initialized all Mocks and Injected in to the instance
+20:13:53.307 [main] INFO com.apple.client.bean.ServiceResponseTest - Initialized all Mocks and Injected in to the instance
+20:13:53.308 [main] INFO com.apple.client.bean.ServiceResponseTest - Initialized all Mocks and Injected in to the instance
+20:13:53.309 [main] INFO com.apple.client.bean.ServiceResponseTest - Initialized all Mocks and Injected in to the instance
+20:13:53.310 [main] INFO com.apple.client.bean.ServiceResponseTest - Initialized all Mocks and Injected in to the instance

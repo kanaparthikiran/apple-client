@@ -1,0 +1,13 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+apple-client,com.apple.client.exception,AppleAsyncUncaughtExceptionHandler,19,0,0,0,4,0,3,0,3,0
+apple-client,com.apple.client.exception,AppleClientException,5,4,0,0,2,2,1,1,1,1
+apple-client,com.apple.client.util,AppleStatsUtil,0,105,0,10,0,23,0,10,0,5
+apple-client,com.apple.client.util,ServiceResponseComparator,0,16,0,4,0,4,0,4,0,2
+apple-client,com.apple.client.service,ServiceClient,7,133,0,0,3,29,0,6,0,6
+apple-client,com.apple.client,Application,18,0,0,0,6,0,3,0,3,0
+apple-client,com.apple.client,AppRunner,57,59,1,5,18,14,2,6,1,4
+apple-client,com.apple.client.config,ClientConfiguration,14,38,0,0,6,16,4,11,4,11
+apple-client,com.apple.client.config,AppConfig,0,16,0,0,0,5,0,2,0,2
+apple-client,com.apple.client.config,ServiceConfiguration,14,10,0,0,6,4,4,3,4,3
+apple-client,com.apple.client.config,HttpConnectionConfiguration,2,70,0,0,0,20,1,4,1,4
+apple-client,com.apple.client.bean,ServiceResponse,6,38,0,0,3,12,1,6,1,6

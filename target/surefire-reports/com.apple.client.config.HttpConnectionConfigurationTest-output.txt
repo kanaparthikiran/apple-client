@@ -1,0 +1,6 @@
+20:13:50.979 [main] INFO com.apple.client.config.HttpConnectionConfigurationTest - Initialized all Mocks and Injected in to the instance
+20:13:51.026 [main] INFO com.apple.client.config.HttpConnectionConfigurationTest - Closed all mocks and objects 
+20:13:51.028 [main] INFO com.apple.client.config.HttpConnectionConfigurationTest - Initialized all Mocks and Injected in to the instance
+20:13:51.501 [main] INFO com.apple.client.config.HttpConnectionConfigurationTest - Closed all mocks and objects 
+20:13:51.504 [main] INFO com.apple.client.config.HttpConnectionConfigurationTest - Initialized all Mocks and Injected in to the instance
+20:13:51.508 [main] INFO com.apple.client.config.HttpConnectionConfigurationTest - Closed all mocks and objects 

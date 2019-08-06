@@ -1,0 +1,4 @@
+20:13:50.226 [main] INFO com.apple.client.config.ServiceConfigurationTest - Initialized all Mocks and Injected in to the instance
+20:13:50.227 [main] INFO com.apple.client.config.ServiceConfigurationTest - Closed all mocks and objects 
+20:13:50.227 [main] INFO com.apple.client.config.ServiceConfigurationTest - Initialized all Mocks and Injected in to the instance
+20:13:50.227 [main] INFO com.apple.client.config.ServiceConfigurationTest - Closed all mocks and objects 

@@ -1,0 +1,72 @@
+{"properties": [
+  {
+    "name": "httppool.maxPerRoute",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.maxPerRoute'"
+  },
+  {
+    "name": "httppool.connectionRequestTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.connectionRequestTimeout'"
+  },
+  {
+    "name": "httppool.maxTotal",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.maxTotal'"
+  },
+  {
+    "name": "httppool.connectTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.connectTimeout'"
+  },
+  {
+    "name": "httppool.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.socketTimeout'"
+  },
+  {
+    "name": "management.trace.http.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.trace.http.enabled'"
+  },
+  {
+    "name": "backend.service.url",
+    "type": "java.lang.String",
+    "description": "A description for 'backend.service.url'"
+  },
+  {
+    "name": "management.trace.http.include",
+    "type": "java.lang.String",
+    "description": "A description for 'management.trace.http.include'"
+  },
+  {
+    "name": "httppool.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.socketTimeout'"
+  },
+  {
+    "name": "httppool.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.socketTimeout'"
+  },
+  {
+    "name": "httppool.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.socketTimeout'"
+  },
+  {
+    "name": "backend.service.total",
+    "type": "java.lang.String",
+    "description": "A description for 'backend.service.total'"
+  },
+  {
+    "name": "httppool.retryEnabled",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.retryEnabled'"
+  },
+  {
+    "name": "httppool.retryCount",
+    "type": "java.lang.String",
+    "description": "A description for 'httppool.retryCount'"
+  }
+]}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AppRunner.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">apple-client</a> &gt; <a href="index.source.html" class="el_package">com.apple.client</a> &gt; <span class="el_source">AppRunner.java</span></div><h1>AppRunner.java</h1><pre class="source lang-java linenums">/*
+ * Copyright 2019 Apple. All Rights Reserved.
+ *
+ * This software is the proprietary information of Apple.
+ * Use is subject to license terms.
+ */
+package com.apple.client;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+import com.apple.client.bean.ServiceResponse;
+import com.apple.client.config.ServiceConfiguration;
+import com.apple.client.exception.AppleClientException;
+import com.apple.client.service.IServiceClient;
+import com.apple.client.util.ServiceResponseComparator;
+/**
+ * Application Command Line Runner for the Apple Client Application
+ *
+ * @author Kiran Kanaparthi
+ * @since May 03, 2019
+ */
+@Component
+<span class="fc" id="L31">public class AppRunner implements CommandLineRunner {</span>
+
+<span class="fc" id="L33">    private static final Logger logger = LoggerFactory.getLogger(AppRunner.class);</span>
+
+    @Autowired
+    private IServiceClient httpClient;
+
+    @Autowired
+    private ServiceConfiguration config;
+
+    /**
+     * Executes the list of tasks asynchronously with the given batch size.
+     *
+     * @param url url of the backend service.
+     * @param batchSize size for one batch.
+     * @return the feature objects for the submitted jobs.
+     * @throws AppleClientException thrown if there is any exception in job processing.
+     */
+    public List&lt;CompletableFuture&lt;ServiceResponse&gt;&gt; batchTasks(String url, int batchSize)
+        throws AppleClientException {
+<span class="fc" id="L51">        List&lt;CompletableFuture&lt;ServiceResponse&gt;&gt; completeResponses = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">        for (int i = 0; i &lt; batchSize; i++) {</span>
+<span class="fc" id="L53">            completeResponses.add(httpClient.getServiceResponseAsync(url));</span>
+        }
+<span class="fc" id="L55">        return completeResponses;</span>
+    }
+
+    /**
+     * Executes the Spring Application from Command Line.
+     *
+     * @throws AppleClientException thrown if there is any exception in job processing.
+     */
+    @Override
+    public void run(String... args) throws AppleClientException {
+        // Start the clock
+<span class="nc" id="L66">        long start = System.currentTimeMillis();</span>
+
+<span class="nc" id="L68">        int batchSize = config.getBatch();</span>
+<span class="nc" id="L69">        int totalSize = config.getTotal();</span>
+<span class="nc" id="L70">        int totalBatches = totalSize / batchSize;</span>
+
+<span class="nc" id="L72">        List&lt;CompletableFuture&lt;ServiceResponse&gt;&gt; allResponses =</span>
+<span class="nc" id="L73">            getJobResults(batchSize, totalSize, totalBatches);</span>
+
+         // Wait until the jobs are all done, to get metrics.
+<span class="nc" id="L76">        List&lt;ServiceResponse&gt; result =</span>
+<span class="nc" id="L77">                allResponses.stream()</span>
+<span class="nc" id="L78">                        .map(CompletableFuture::join)</span>
+<span class="nc" id="L79">                        .collect(Collectors.toList());</span>
+
+<span class="nc" id="L81">        logger.info(&quot;\nTime taken to Execute the tasks parallelly is {} milli seconds \n&quot;,</span>
+<span class="nc" id="L82">                System.currentTimeMillis() - start);</span>
+        //Sort the collection for Percentile, and Standard Deviation
+<span class="nc" id="L84">        Collections.sort(result, new ServiceResponseComparator&lt;&gt;());</span>
+
+<span class="nc" id="L86">        httpClient.displayStatistics(totalSize, result);</span>
+<span class="nc" id="L87">    }</span>
+
+    /**
+    * Processes all the Jobs using several batches with the given batch size.
+    *
+    * If the batch size divide the total Jobs with a
+    * remainder, the remainder of the Jobs are also processed in the end.
+    *
+    * @param batchSize Batch Size for the jobs.
+    * @param totalBatches Number of batches in which the total jobs are divided into.
+    * @return returns the List of completed Jobs with the responsetime, and response codes.
+    * @throws AppleClientException thrown in case of any exception in running the job.
+    */
+    public List&lt;CompletableFuture&lt;ServiceResponse&gt;&gt; getJobResults(int batchSize, int totalSize, int totalBatches)
+        throws AppleClientException {
+        //Incase of the batchSize(it is configurable, if this is say 15) does not divide 100,
+        //there could be some remaining
+        //items from the list of batches, process the left out jobs in the final batch.
+<span class="fc" id="L105">        int remainingFromTotal = totalSize - (totalBatches * batchSize);</span>
+<span class="fc" id="L106">        List&lt;CompletableFuture&lt;ServiceResponse&gt;&gt;  allResponses  = new ArrayList&lt;&gt;();</span>
+
+        // Kick off multiple, asynchronous lookups
+<span class="fc bfc" id="L109" title="All 2 branches covered.">        for (int i = 0; i &lt; totalBatches; i++) {</span>
+<span class="fc" id="L110">            List&lt;CompletableFuture&lt;ServiceResponse&gt;&gt;  batchResponses =</span>
+<span class="fc" id="L111">                batchTasks(config.getUrl(), batchSize);</span>
+<span class="fc" id="L112">            allResponses.addAll(batchResponses);</span>
+        }
+
+        //Process the remaining jobs, that might have slipped from the batch
+        //if the batch size does not divide total jobs(100).
+<span class="pc bpc" id="L117" title="1 of 2 branches missed.">        if (remainingFromTotal &gt; 0) {</span>
+<span class="nc" id="L118">            List&lt;CompletableFuture&lt;ServiceResponse&gt;&gt;  remainingItems =</span>
+<span class="nc" id="L119">                batchTasks(config.getUrl(), remainingFromTotal);</span>
+<span class="nc" id="L120">            allResponses.addAll(remainingItems);</span>
+        }
+<span class="fc" id="L122">        return allResponses;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

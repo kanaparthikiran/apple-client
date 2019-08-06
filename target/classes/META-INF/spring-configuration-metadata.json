@@ -1,0 +1,119 @@
+{
+  "groups": [
+    {
+      "name": "backend.service",
+      "type": "com.apple.client.config.ServiceConfiguration",
+      "sourceType": "com.apple.client.config.ServiceConfiguration"
+    },
+    {
+      "name": "httppool",
+      "type": "com.apple.client.config.ClientConfiguration",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "backend.service.batch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ServiceConfiguration"
+    },
+    {
+      "name": "backend.service.depth",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ServiceConfiguration"
+    },
+    {
+      "name": "backend.service.total",
+      "type": "java.lang.Integer",
+      "description": "A description for 'backend.service.total'",
+      "sourceType": "com.apple.client.config.ServiceConfiguration"
+    },
+    {
+      "name": "backend.service.url",
+      "type": "java.lang.String",
+      "description": "A description for 'backend.service.url'",
+      "sourceType": "com.apple.client.config.ServiceConfiguration"
+    },
+    {
+      "name": "httppool.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    },
+    {
+      "name": "httppool.connectTimeout",
+      "type": "java.lang.String",
+      "description": "A description for 'httppool.connectTimeout'"
+    },
+    {
+      "name": "httppool.connection-request-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    },
+    {
+      "name": "httppool.connectionRequestTimeout",
+      "type": "java.lang.String",
+      "description": "A description for 'httppool.connectionRequestTimeout'"
+    },
+    {
+      "name": "httppool.max-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    },
+    {
+      "name": "httppool.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    },
+    {
+      "name": "httppool.maxPerRoute",
+      "type": "java.lang.String",
+      "description": "A description for 'httppool.maxPerRoute'"
+    },
+    {
+      "name": "httppool.maxTotal",
+      "type": "java.lang.String",
+      "description": "A description for 'httppool.maxTotal'"
+    },
+    {
+      "name": "httppool.retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    },
+    {
+      "name": "httppool.retry-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    },
+    {
+      "name": "httppool.retryCount",
+      "type": "java.lang.String",
+      "description": "A description for 'httppool.retryCount'"
+    },
+    {
+      "name": "httppool.retryEnabled",
+      "type": "java.lang.String",
+      "description": "A description for 'httppool.retryEnabled'"
+    },
+    {
+      "name": "httppool.socket-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.apple.client.config.ClientConfiguration"
+    },
+    {
+      "name": "httppool.socketTimeout",
+      "type": "java.lang.String",
+      "description": "A description for 'httppool.socketTimeout'"
+    },
+    {
+      "name": "management.trace.http.enabled",
+      "type": "java.lang.String",
+      "description": "A description for 'management.trace.http.enabled'"
+    },
+    {
+      "name": "management.trace.http.include",
+      "type": "java.lang.String",
+      "description": "A description for 'management.trace.http.include'"
+    }
+  ],
+  "hints": []
+}

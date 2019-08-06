@@ -1,0 +1,230 @@
+2019-05-07 14:26:18,389 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on SFOC02WV0BXJG5L with PID 24098 (/Applications/STSEclipseWorkspace/apple-client/target/classes started by kkanaparthi in /Applications/STSEclipseWorkspace/apple-client)
+2019-05-07 14:26:18,390 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2019-05-07 14:26:19,128 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 1.057 seconds (JVM running for 1.868)
+2019-05-07 14:26:19,607 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 465 
+2019-05-07 14:26:19,608 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 466 
+2019-05-07 14:26:19,667 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 525 
+2019-05-07 14:26:19,670 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 528 
+2019-05-07 14:26:19,719 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 577 
+2019-05-07 14:26:19,733 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 591 
+2019-05-07 14:26:19,779 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 638 
+2019-05-07 14:26:19,798 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 656 
+2019-05-07 14:26:19,841 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 699 
+2019-05-07 14:26:19,855 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 713 
+2019-05-07 14:26:19,898 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 288 
+2019-05-07 14:26:19,905 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 295 
+2019-05-07 14:26:19,962 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 294 
+2019-05-07 14:26:19,962 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 292 
+2019-05-07 14:26:20,027 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 307 
+2019-05-07 14:26:20,027 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 172 
+2019-05-07 14:26:20,125 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 226 
+2019-05-07 14:26:20,125 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 220 
+2019-05-07 14:26:20,179 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 400 
+2019-05-07 14:26:20,183 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 450 
+2019-05-07 14:26:20,242 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 443 
+2019-05-07 14:26:20,243 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 401 
+2019-05-07 14:26:20,300 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 338 
+2019-05-07 14:26:20,303 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 341 
+2019-05-07 14:26:20,361 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 118 
+2019-05-07 14:26:20,362 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 335 
+2019-05-07 14:26:20,416 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 389 
+2019-05-07 14:26:20,418 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 293 
+2019-05-07 14:26:20,481 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 356 
+2019-05-07 14:26:20,482 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 302 
+2019-05-07 14:26:20,542 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 298 
+2019-05-07 14:26:20,543 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 359 
+2019-05-07 14:26:20,606 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 124 
+2019-05-07 14:26:20,606 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 305 
+2019-05-07 14:26:20,669 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 187 
+2019-05-07 14:26:20,670 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 366 
+2019-05-07 14:26:20,725 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 364 
+2019-05-07 14:26:20,731 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 368 
+2019-05-07 14:26:20,783 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 367 
+2019-05-07 14:26:20,790 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 372 
+2019-05-07 14:26:20,842 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 299 
+2019-05-07 14:26:20,854 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 311 
+2019-05-07 14:26:20,900 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 294 
+2019-05-07 14:26:20,915 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 309 
+2019-05-07 14:26:20,956 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 286 
+2019-05-07 14:26:20,970 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 300 
+2019-05-07 14:26:21,015 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 290 
+2019-05-07 14:26:21,035 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 304 
+2019-05-07 14:26:21,090 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 307 
+2019-05-07 14:26:21,092 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 302 
+2019-05-07 14:26:21,153 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 311 
+2019-05-07 14:26:21,154 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 300 
+2019-05-07 14:26:21,220 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 320 
+2019-05-07 14:26:21,220 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 304 
+2019-05-07 14:26:21,281 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 311 
+2019-05-07 14:26:21,281 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 324 
+2019-05-07 14:26:21,339 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 323 
+2019-05-07 14:26:21,341 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 306 
+2019-05-07 14:26:21,397 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 116 
+2019-05-07 14:26:21,400 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 309 
+2019-05-07 14:26:21,455 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 363 
+2019-05-07 14:26:21,456 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 303 
+2019-05-07 14:26:21,526 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 372 
+2019-05-07 14:26:21,526 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 306 
+2019-05-07 14:26:21,591 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 309 
+2019-05-07 14:26:21,591 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 371 
+2019-05-07 14:26:21,648 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 307 
+2019-05-07 14:26:21,657 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 317 
+2019-05-07 14:26:21,715 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 318 
+2019-05-07 14:26:21,717 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 317 
+2019-05-07 14:26:21,776 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 320 
+2019-05-07 14:26:21,784 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 328 
+2019-05-07 14:26:21,836 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 310 
+2019-05-07 14:26:21,847 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 321 
+2019-05-07 14:26:21,897 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 305 
+2019-05-07 14:26:21,908 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 316 
+2019-05-07 14:26:21,950 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 302 
+2019-05-07 14:26:21,964 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 307 
+2019-05-07 14:26:22,009 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 294 
+2019-05-07 14:26:22,023 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 306 
+2019-05-07 14:26:22,074 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 298 
+2019-05-07 14:26:22,085 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 300 
+2019-05-07 14:26:22,144 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 308 
+2019-05-07 14:26:22,145 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 298 
+2019-05-07 14:26:22,212 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 315 
+2019-05-07 14:26:22,212 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 304 
+2019-05-07 14:26:22,271 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 321 
+2019-05-07 14:26:22,271 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 261 
+2019-05-07 14:26:22,340 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 317 
+2019-05-07 14:26:22,340 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:26:22,418 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 273 
+2019-05-07 14:26:22,418 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 333 
+2019-05-07 14:26:22,477 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 331 
+2019-05-07 14:26:22,478 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 514 
+2019-05-07 14:26:22,537 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 325 
+2019-05-07 14:26:22,537 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 325 
+2019-05-07 14:26:22,590 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 319 
+2019-05-07 14:26:22,592 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 321 
+2019-05-07 14:26:22,645 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 305 
+2019-05-07 14:26:22,654 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 314 
+2019-05-07 14:26:22,654 INFO com.apple.client.AppRunner [main] 
+Time taken to Execute the tasks parallelly is 3526 milli seconds 
+
+2019-05-07 14:26:22,656 INFO com.apple.client.service.ServiceClient [main] percentile 10 = 286 
+2019-05-07 14:26:22,656 INFO com.apple.client.service.ServiceClient [main] percentile 50 = 311 
+2019-05-07 14:26:22,656 INFO com.apple.client.service.ServiceClient [main] percentile 90 = 466 
+2019-05-07 14:26:22,656 INFO com.apple.client.service.ServiceClient [main] percentile 95 = 591 
+2019-05-07 14:26:22,656 INFO com.apple.client.service.ServiceClient [main] percentile 99 = 713 
+2019-05-07 14:26:22,660 INFO com.apple.client.service.ServiceClient [main] The mean of all values = 338.94  
+2019-05-07 14:26:22,661 INFO com.apple.client.service.ServiceClient [main] The standardDeviation of all values = 103.306 
+2019-05-07 14:26:22,661 INFO com.apple.client.service.ServiceClient [main] The Sum of time taken to execute all tasks(if executed serially) is 33894.0 milli seconds 
+2019-05-07 14:26:22,665 INFO com.apple.client.Application [main]  Completed Executing Application 
+2019-05-07 14:26:58,212 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application on SFOC02WV0BXJG5L with PID 24103 (/Applications/STSEclipseWorkspace/apple-client/target/classes started by kkanaparthi in /Applications/STSEclipseWorkspace/apple-client)
+2019-05-07 14:26:58,213 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2019-05-07 14:26:58,888 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 0.924 seconds (JVM running for 1.261)
+2019-05-07 14:26:59,222 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 323 
+2019-05-07 14:26:59,222 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 322 
+2019-05-07 14:26:59,274 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 374 
+2019-05-07 14:26:59,278 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 378 
+2019-05-07 14:26:59,328 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 428 
+2019-05-07 14:26:59,331 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 432 
+2019-05-07 14:26:59,381 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 482 
+2019-05-07 14:26:59,385 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 485 
+2019-05-07 14:26:59,436 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 536 
+2019-05-07 14:26:59,436 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 537 
+2019-05-07 14:26:59,489 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:26:59,489 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:26:59,543 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:26:59,586 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 308 
+2019-05-07 14:26:59,598 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 270 
+2019-05-07 14:26:59,641 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 309 
+2019-05-07 14:26:59,654 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 272 
+2019-05-07 14:26:59,695 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 310 
+2019-05-07 14:26:59,707 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:26:59,752 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 316 
+2019-05-07 14:26:59,760 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 270 
+2019-05-07 14:26:59,804 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 314 
+2019-05-07 14:26:59,806 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 262 
+2019-05-07 14:26:59,856 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 270 
+2019-05-07 14:26:59,857 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 258 
+2019-05-07 14:26:59,909 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:26:59,911 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 257 
+2019-05-07 14:26:59,961 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:26:59,965 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 258 
+2019-05-07 14:27:00,016 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 264 
+2019-05-07 14:27:00,018 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 258 
+2019-05-07 14:27:00,071 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 267 
+2019-05-07 14:27:00,116 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 310 
+2019-05-07 14:27:00,124 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:27:00,168 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 310 
+2019-05-07 14:27:00,179 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 270 
+2019-05-07 14:27:00,222 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 310 
+2019-05-07 14:27:00,235 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 274 
+2019-05-07 14:27:00,275 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 310 
+2019-05-07 14:27:00,289 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 273 
+2019-05-07 14:27:00,330 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 312 
+2019-05-07 14:27:00,342 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:00,383 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:27:00,396 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:00,436 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:27:00,449 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 270 
+2019-05-07 14:27:00,487 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 265 
+2019-05-07 14:27:00,503 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:27:00,537 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 262 
+2019-05-07 14:27:00,559 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 269 
+2019-05-07 14:27:00,590 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 259 
+2019-05-07 14:27:00,614 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 272 
+2019-05-07 14:27:00,646 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 263 
+2019-05-07 14:27:00,667 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:00,698 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 262 
+2019-05-07 14:27:00,722 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 272 
+2019-05-07 14:27:00,751 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 264 
+2019-05-07 14:27:00,774 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:00,803 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:27:00,828 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 269 
+2019-05-07 14:27:00,855 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 264 
+2019-05-07 14:27:00,881 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:27:00,910 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 264 
+2019-05-07 14:27:00,937 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 270 
+2019-05-07 14:27:00,964 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:27:00,991 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 269 
+2019-05-07 14:27:01,017 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:27:01,046 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:01,070 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 267 
+2019-05-07 14:27:01,102 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 274 
+2019-05-07 14:27:01,125 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 269 
+2019-05-07 14:27:01,159 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 277 
+2019-05-07 14:27:01,177 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 267 
+2019-05-07 14:27:01,211 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 274 
+2019-05-07 14:27:01,233 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:27:01,264 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 273 
+2019-05-07 14:27:01,293 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 276 
+2019-05-07 14:27:01,318 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 272 
+2019-05-07 14:27:01,345 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 275 
+2019-05-07 14:27:01,370 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 267 
+2019-05-07 14:27:01,397 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 272 
+2019-05-07 14:27:01,426 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 267 
+2019-05-07 14:27:01,448 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:01,478 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:27:01,501 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:27:01,533 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 269 
+2019-05-07 14:27:01,554 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 261 
+2019-05-07 14:27:01,586 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:27:01,604 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 259 
+2019-05-07 14:27:01,639 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 268 
+2019-05-07 14:27:01,656 INFO com.apple.client.service.ServiceClient [apple-client-5] Inside Method Status Code is 200 OK Response Time 259 
+2019-05-07 14:27:01,693 INFO com.apple.client.service.ServiceClient [apple-client-1] Inside Method Status Code is 200 OK Response Time 266 
+2019-05-07 14:27:01,709 INFO com.apple.client.service.ServiceClient [apple-client-10] Inside Method Status Code is 200 OK Response Time 261 
+2019-05-07 14:27:01,750 INFO com.apple.client.service.ServiceClient [apple-client-8] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:01,764 INFO com.apple.client.service.ServiceClient [apple-client-7] Inside Method Status Code is 200 OK Response Time 262 
+2019-05-07 14:27:01,802 INFO com.apple.client.service.ServiceClient [apple-client-3] Inside Method Status Code is 200 OK Response Time 269 
+2019-05-07 14:27:01,817 INFO com.apple.client.service.ServiceClient [apple-client-4] Inside Method Status Code is 200 OK Response Time 263 
+2019-05-07 14:27:01,856 INFO com.apple.client.service.ServiceClient [apple-client-6] Inside Method Status Code is 200 OK Response Time 269 
+2019-05-07 14:27:01,869 INFO com.apple.client.service.ServiceClient [apple-client-2] Inside Method Status Code is 200 OK Response Time 264 
+2019-05-07 14:27:01,910 INFO com.apple.client.service.ServiceClient [apple-client-9] Inside Method Status Code is 200 OK Response Time 271 
+2019-05-07 14:27:01,910 INFO com.apple.client.AppRunner [main] 
+Time taken to Execute the tasks parallelly is 3021 milli seconds 
+
+2019-05-07 14:27:01,911 INFO com.apple.client.service.ServiceClient [main] percentile 10 = 262 
+2019-05-07 14:27:01,912 INFO com.apple.client.service.ServiceClient [main] percentile 50 = 269 
+2019-05-07 14:27:01,912 INFO com.apple.client.service.ServiceClient [main] percentile 90 = 322 
+2019-05-07 14:27:01,912 INFO com.apple.client.service.ServiceClient [main] percentile 95 = 432 
+2019-05-07 14:27:01,912 INFO com.apple.client.service.ServiceClient [main] percentile 99 = 537 
+2019-05-07 14:27:01,914 INFO com.apple.client.service.ServiceClient [main] The mean of all values = 288.0  
+2019-05-07 14:27:01,915 INFO com.apple.client.service.ServiceClient [main] The standardDeviation of all values = 54.950 
+2019-05-07 14:27:01,915 INFO com.apple.client.service.ServiceClient [main] The Sum of time taken to execute all tasks(if executed serially) is 28800.0 milli seconds 
+2019-05-07 14:27:01,919 INFO com.apple.client.Application [main]  Completed Executing Application 

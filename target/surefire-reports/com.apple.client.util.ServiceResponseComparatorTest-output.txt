@@ -1,0 +1,7 @@
+20:13:50.222 [main] INFO com.apple.client.util.ServiceResponseComparatorTest - Initialized all Mocks and Injected in to the instance
+20:13:50.223 [main] INFO com.apple.client.util.ServiceResponseComparatorTest - Initialized all Mocks and Injected in to the instance
+20:13:50.223 [main] INFO com.apple.client.util.ServiceResponseComparatorTest - Initialized all Mocks and Injected in to the instance
+20:13:50.224 [main] INFO com.apple.client.util.ServiceResponseComparatorTest - Initialized all Mocks and Injected in to the instance
+20:13:50.224 [main] INFO com.apple.client.util.ServiceResponseComparatorTest -  comparator.compare(response1, response2) is 100
+20:13:50.224 [main] INFO com.apple.client.util.ServiceResponseComparatorTest - Initialized all Mocks and Injected in to the instance
+20:13:50.224 [main] INFO com.apple.client.util.ServiceResponseComparatorTest - Initialized all Mocks and Injected in to the instance

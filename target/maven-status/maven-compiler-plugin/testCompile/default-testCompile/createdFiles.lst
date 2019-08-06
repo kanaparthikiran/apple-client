@@ -1,0 +1,11 @@
+com/apple/client/AppRunnerTest.class
+com/apple/client/util/ServiceResponseComparatorTest.class
+com/apple/client/integration/ApplicationIT.class
+com/apple/client/util/AppleClientTestConstants.class
+com/apple/client/config/ClientConfigurationTest.class
+com/apple/client/config/AppConfigTest.class
+com/apple/client/service/ServiceClientTest.class
+com/apple/client/config/HttpConnectionConfigurationTest.class
+com/apple/client/config/ServiceConfigurationTest.class
+com/apple/client/bean/ServiceResponseTest.class
+com/apple/client/util/AppleStatsUtilTest.class

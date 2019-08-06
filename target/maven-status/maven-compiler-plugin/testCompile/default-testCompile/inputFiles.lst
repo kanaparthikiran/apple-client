@@ -1,0 +1,13 @@
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/util/AppleStatsUtilTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/util/AppleClientTestConstants.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/integration/ApplicationIT.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/service/ServiceClientTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/AppRunnerTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/package-info.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/util/ServiceResponseComparatorTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/config/HttpConnectionConfigurationTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/integration/package-info.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/config/ClientConfigurationTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/config/AppConfigTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/bean/ServiceResponseTest.java
+/Applications/STSEclipseWorkspace/apple-client/src/test/java/com/apple/client/config/ServiceConfigurationTest.java
